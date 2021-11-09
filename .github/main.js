@@ -1,5 +1,5 @@
 const fs = require('fs');
 
-console.log(fs.existsSync('./skids.json'))
+console.log(fs.existsSync('./credits.json'))
 
-JSON.parse(fs.readFileSync('./skids.json', "utf8"))
+JSON.parse(fs.readFileSync('./credits.json', "utf8"))
